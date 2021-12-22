@@ -10,10 +10,7 @@ include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/olives
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := olive,olivelite,olivewood,olives
-
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+TARGET_OTA_ASSERT_DEVICE := olivelite,olivewood,olives
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olives
@@ -31,10 +28,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-07-01
-
-# SELinux
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/biometrics/sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the proprietary version
 include vendor/xiaomi/olives/BoardConfigVendor.mk

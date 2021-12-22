@@ -2728,20 +2728,6 @@ vendor/etc/camera/new_vdclear_hht_params_omnivision_8856_i_cn..xml
 vendor/etc/camera/olivelite_arc_hdr_params_i.xml
 vendor/etc/camera/olivewood_arc_hdr_params_i.xml
 
-# Consumer IR
-vendor/lib64/hw/consumerir.default.so
-
-# Fingerprint
-vendor/lib64/com.fingerprints.extension@1.0.so
-vendor/lib64/hw/fingerprint.default.so
-vendor/lib64/hw/gf_fingerprint.default.so
-vendor/lib64/libgf_ca.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libgoodixhwfingerprint.so
-vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib/com.fingerprints.extension@1.0.so
-
 # Firmwares
 vendor/firmware/aw87519_rcv.bin
 vendor/firmware/aw87519_spk.bin
